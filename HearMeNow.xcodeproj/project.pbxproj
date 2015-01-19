@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C8427381A6D7D8A00E02663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8427371A6D7D8A00E02663 /* AppDelegate.swift */; };
+		6C84273A1A6D7D8A00E02663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8427391A6D7D8A00E02663 /* ViewController.swift */; };
+		6C84273D1A6D7D8A00E02663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C84273B1A6D7D8A00E02663 /* Main.storyboard */; };
+		6C84273F1A6D7D8A00E02663 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C84273E1A6D7D8A00E02663 /* Images.xcassets */; };
+		6C8427421A6D7D8A00E02663 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8427401A6D7D8A00E02663 /* LaunchScreen.xib */; };
+		6C84274E1A6D7D8A00E02663 /* HearMeNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84274D1A6D7D8A00E02663 /* HearMeNowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C8427481A6D7D8A00E02663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C84272A1A6D7D8A00E02663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C8427311A6D7D8A00E02663;
+			remoteInfo = HearMeNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C8427321A6D7D8A00E02663 /* HearMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8427361A6D7D8A00E02663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C8427371A6D7D8A00E02663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C8427391A6D7D8A00E02663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C84273C1A6D7D8A00E02663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C84273E1A6D7D8A00E02663 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C8427411A6D7D8A00E02663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6C8427471A6D7D8A00E02663 /* HearMeNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearMeNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C84274C1A6D7D8A00E02663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C84274D1A6D7D8A00E02663 /* HearMeNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeNowTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C84272F1A6D7D8A00E02663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8427441A6D7D8A00E02663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C8427291A6D7D8A00E02663 = {
+			isa = PBXGroup;
+			children = (
+				6C8427341A6D7D8A00E02663 /* HearMeNow */,
+				6C84274A1A6D7D8A00E02663 /* HearMeNowTests */,
+				6C8427331A6D7D8A00E02663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C8427331A6D7D8A00E02663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C8427321A6D7D8A00E02663 /* HearMeNow.app */,
+				6C8427471A6D7D8A00E02663 /* HearMeNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C8427341A6D7D8A00E02663 /* HearMeNow */ = {
+			isa = PBXGroup;
+			children = (
+				6C8427371A6D7D8A00E02663 /* AppDelegate.swift */,
+				6C8427391A6D7D8A00E02663 /* ViewController.swift */,
+				6C84273B1A6D7D8A00E02663 /* Main.storyboard */,
+				6C84273E1A6D7D8A00E02663 /* Images.xcassets */,
+				6C8427401A6D7D8A00E02663 /* LaunchScreen.xib */,
+				6C8427351A6D7D8A00E02663 /* Supporting Files */,
+			);
+			path = HearMeNow;
+			sourceTree = "<group>";
+		};
+		6C8427351A6D7D8A00E02663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C8427361A6D7D8A00E02663 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C84274A1A6D7D8A00E02663 /* HearMeNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C84274D1A6D7D8A00E02663 /* HearMeNowTests.swift */,
+				6C84274B1A6D7D8A00E02663 /* Supporting Files */,
+			);
+			path = HearMeNowTests;
+			sourceTree = "<group>";
+		};
+		6C84274B1A6D7D8A00E02663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C84274C1A6D7D8A00E02663 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C8427311A6D7D8A00E02663 /* HearMeNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8427511A6D7D8A00E02663 /* Build configuration list for PBXNativeTarget "HearMeNow" */;
+			buildPhases = (
+				6C84272E1A6D7D8A00E02663 /* Sources */,
+				6C84272F1A6D7D8A00E02663 /* Frameworks */,
+				6C8427301A6D7D8A00E02663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearMeNow;
+			productName = HearMeNow;
+			productReference = 6C8427321A6D7D8A00E02663 /* HearMeNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C8427461A6D7D8A00E02663 /* HearMeNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8427541A6D7D8A00E02663 /* Build configuration list for PBXNativeTarget "HearMeNowTests" */;
+			buildPhases = (
+				6C8427431A6D7D8A00E02663 /* Sources */,
+				6C8427441A6D7D8A00E02663 /* Frameworks */,
+				6C8427451A6D7D8A00E02663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C8427491A6D7D8A00E02663 /* PBXTargetDependency */,
+			);
+			name = HearMeNowTests;
+			productName = HearMeNowTests;
+			productReference = 6C8427471A6D7D8A00E02663 /* HearMeNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C84272A1A6D7D8A00E02663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cicerone Ltd";
+				TargetAttributes = {
+					6C8427311A6D7D8A00E02663 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6C8427461A6D7D8A00E02663 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6C8427311A6D7D8A00E02663;
+					};
+				};
+			};
+			buildConfigurationList = 6C84272D1A6D7D8A00E02663 /* Build configuration list for PBXProject "HearMeNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C8427291A6D7D8A00E02663;
+			productRefGroup = 6C8427331A6D7D8A00E02663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C8427311A6D7D8A00E02663 /* HearMeNow */,
+				6C8427461A6D7D8A00E02663 /* HearMeNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C8427301A6D7D8A00E02663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84273D1A6D7D8A00E02663 /* Main.storyboard in Resources */,
+				6C8427421A6D7D8A00E02663 /* LaunchScreen.xib in Resources */,
+				6C84273F1A6D7D8A00E02663 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8427451A6D7D8A00E02663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C84272E1A6D7D8A00E02663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84273A1A6D7D8A00E02663 /* ViewController.swift in Sources */,
+				6C8427381A6D7D8A00E02663 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8427431A6D7D8A00E02663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C84274E1A6D7D8A00E02663 /* HearMeNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C8427491A6D7D8A00E02663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C8427311A6D7D8A00E02663 /* HearMeNow */;
+			targetProxy = 6C8427481A6D7D8A00E02663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C84273B1A6D7D8A00E02663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C84273C1A6D7D8A00E02663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C8427401A6D7D8A00E02663 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C8427411A6D7D8A00E02663 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C84274F1A6D7D8A00E02663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C8427501A6D7D8A00E02663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C8427521A6D7D8A00E02663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HearMeNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C8427531A6D7D8A00E02663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HearMeNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C8427551A6D7D8A00E02663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HearMeNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearMeNow.app/HearMeNow";
+			};
+			name = Debug;
+		};
+		6C8427561A6D7D8A00E02663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HearMeNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearMeNow.app/HearMeNow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C84272D1A6D7D8A00E02663 /* Build configuration list for PBXProject "HearMeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C84274F1A6D7D8A00E02663 /* Debug */,
+				6C8427501A6D7D8A00E02663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8427511A6D7D8A00E02663 /* Build configuration list for PBXNativeTarget "HearMeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8427521A6D7D8A00E02663 /* Debug */,
+				6C8427531A6D7D8A00E02663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C8427541A6D7D8A00E02663 /* Build configuration list for PBXNativeTarget "HearMeNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8427551A6D7D8A00E02663 /* Debug */,
+				6C8427561A6D7D8A00E02663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C84272A1A6D7D8A00E02663 /* Project object */;
+}
