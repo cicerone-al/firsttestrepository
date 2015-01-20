@@ -4,7 +4,7 @@
 //
 //  Created by Alvin on 19/01/2015.
 //  Copyright (c) 2015 Cicerone Ltd. All rights reserved.
-//
+//  This is the View Controller
 
 import UIKit
 import AVFoundation
